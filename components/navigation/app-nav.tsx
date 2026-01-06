@@ -8,16 +8,16 @@ const AppNav = () => {
       <NavLogo />
       <div>
         <ul className="flex justify-between items-center  gap-10 text-[#8C97A8] font-medium leading-none tracking-normal">
-          <li className="transition-colors duration-200 ease-out hover:text-[#007AFF]">
+          <li className="transition-colors duration-200 ease-out hover:text-primary-blue">
             <Link href="/">How it works</Link>
           </li>
-          <li className="transition-colors duration-200 ease-out hover:text-[#007AFF]">
+          <li className="transition-colors duration-200 ease-out hover:text-primary-blue">
             <Link href="/">Pricing</Link>
           </li>
-          <li className="transition-colors duration-200 ease-out hover:text-[#007AFF]">
+          <li className="transition-colors duration-200 ease-out hover:text-primary-blue">
             <Link href="/">Use Case</Link>
           </li>
-          <li className="transition-colors duration-200 ease-out hover:text-[#007AFF]">
+          <li className="transition-colors duration-200 ease-out hover:text-primary-blue">
             <Link href="/">FAQ</Link>
           </li>
         </ul>
