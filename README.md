@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Feeble Hero Assignment
 
-## Getting Started
+This project is a **pixel‑perfect frontend implementation** based on the provided Figma design for the Feeble Frontend Assignment.
 
-First, run the development server:
+The objective of this assignment was to accurately translate the design into a **responsive, animated, and production‑ready website**, with strong attention to visual fidelity, interaction details, and code quality.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🔗 Live Demo
+
+👉 [https://feeble-hero-assignment-iota.vercel.app/](https://feeble-hero-assignment-iota.vercel.app/)
+
+---
+
+## 📁 GitHub Repository
+
+👉 [https://github.com/maymyat-dev/feeble-hero-assignment](https://github.com/maymyat-dev/feeble-hero-assignment)
+
+---
+
+## 🛠 Tech Stack
+
+* **Framework:** Next.js (App Router)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion
+* **Deployment:** Vercel
+
+---
+
+## ✨ Features & Implementation Details
+
+### Pixel‑Perfect UI
+
+* Precise spacing, typography, colors, and layout aligned with the Figma design
+* Component structure mirrors the design hierarchy for clarity and maintainability
+
+### Animations & Interactions
+
+* Motion and transitions implemented using Framer Motion
+* Animation timing, easing, and behavior closely match the Figma prototype
+* Interactive hover and active states implemented according to the design specifications
+
+### Responsive Design
+
+* Fully responsive across desktop, tablet, and mobile breakpoints
+* Layouts adapt smoothly without compromising visual consistency
+
+### Code Quality
+
+* Clean, modular, and scalable component architecture
+* Reusable UI components and shared animation utilities
+* Readable and maintainable code following modern frontend best practices
+
+---
+
+## 📂 Project Structure (Overview)
+
+```
+app/
+  layout.tsx
+  page.tsx
+components/
+  hero/
+    animations/
+  navigation/
+  ui/
+public/
+  fonts/
+  images/
+lib/
+  motion-animation.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 Assumptions & Notes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Design assets were exported directly from the provided Figma file
+* Tailwind CSS utility classes were used to ensure consistent spacing and responsiveness
+* Certain animation values were visually fine‑tuned to best match the intended prototype behavior
+* **Mobile navigation** shadcn/ui Sheet‑based navigation was added to improve mobile usability.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Getting Started (Local Setup)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Install dependencies
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Run development server
+npm run dev
+```
 
-## Deploy on Vercel
+The application will be available at `http://localhost:3000`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👤 Author
+
+**May Myat Mon**
+Frontend Developer
+
+---
+
+Thank you for taking the time to review this assignment. I look forward to your feedback.
