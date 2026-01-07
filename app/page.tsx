@@ -1,13 +1,14 @@
-import Hero from '@/components/hero/hero'
-import AppNav from '@/components/navigation/app-nav'
-import React from 'react'
+import Hero from '@/components/hero/Hero'
+import AppNav from '@/components/navigation/AppNav'
+import MobileNav from '@/components/navigation/MobileNav'
 
 const Home = () => {
   return (
-    <main className="min-h-screen overflow-x-hidden py-[38px]">
-      <header className='w-full'>
-        <div className='nav-container py-6 bg-white rounded-full'>
-          <AppNav/>
+    <main className="min-h-screen overflow-x-hidden">
+      <header className='w-full px-4'>
+        <div className='nav-container md:py-6 py-4 mt-[38px] bg-white rounded-full'>
+          <AppNav />
+          <MobileNav />
         </div>
       </header>
       <Hero/>

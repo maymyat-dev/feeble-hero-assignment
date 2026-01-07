@@ -1,26 +1,27 @@
-import React from 'react'
-import HeroBadge from './herobadge'
-import HeroButtons from './herobuttons'
-import Image from 'next/image'
-import FloatingBirds from './floating-birds'
+import FloatingBirds from "./animations/birds/FloatingBirds";
+import Clouds from "./animations/Clouds";
+import FlyBirds from "./animations/birds/FlyBirds";
+import HeroContent from "./HeroContent";
+import ScrollDown from "../ui/ScrollDown";
+import TextBirds from "./animations/birds/TextBirds";
 
 const Hero = () => {
   return (
-      <section className='relative mt-16'>
-          <FloatingBirds/>
-          <div className='max-w-[736px] w-full text-center mx-auto flex flex-col gap-6'>
-          
-          <HeroBadge />
-          <h1 className='font-bold leading-[1.2] tracking-[-0.02em] text-center text-[64px]'>
-              <span className='text-primary-blue'>iMessage</span> Automation for Teams and AI Workflows.
-          </h1>
-          <p className='font-regular leading-[1.3] tracking-[-0.02em] text-center text-[18px]'>
-              Coup lets you, your team, or AI workflows send iMessages directly from<br/> your phone number, running securely on your Mac or Mac Mini.
-          </p>
-          <HeroButtons/>
-    </div>
-      </section>
-  )
-}
+    <section className="relative  w-full overflow-hidden flex items-center justify-center md:mt-16 mt-10 md:pb-[445px] sm:pb-[300px] pb-[200px] px-4">
+      <Clouds />
 
-export default Hero
+      <div className="absolute inset-0 pointer-events-none">
+        <TextBirds />
+        <FlyBirds />
+        <FloatingBirds />
+      </div>
+
+      <div className="relative z-10">
+        <HeroContent />
+      </div>
+
+      <ScrollDown />
+    </section>
+  );
+};
+export default Hero;
